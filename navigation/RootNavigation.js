@@ -13,9 +13,13 @@ const RootStackNavigator = StackNavigator(
   },
   {
     navigationOptions: () => ({
+      headerStyle: {
+        backgroundColor: '#bf47e5',
+      },
+      headerTintColor: '#fff',
       headerTitleStyle: {
         fontWeight: 'normal',
-      },
+      }
     }),
   }
 );
